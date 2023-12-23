@@ -1,4 +1,3 @@
-
 const userForm = document.getElementById('userForm');
 
 userForm.addEventListener('submit', function(event) {
