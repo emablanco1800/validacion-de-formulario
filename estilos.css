@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(img/background.jpg);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-weight: 700;
+}
+
+form{
+    background: #fff;
+    color: rgb(56, 156, 123);
+    padding: 40px 0;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 2);
+    border-radius: 10px;
+}
+
+.form{
+    width: 100%;
+    margin: auto;
+}
+
+form .grupo{
+    position: relative;
+    margin: 45px;
+}
+
+input{
+    background: none;
+    color: #c6c6c6;
+    font-size: 16px;
+    padding: 8px 8px 8px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid green;
+}
+
+button{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(56, 156, 123);
+    color: #fff;
+    border: none;
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;        
+}
+
+.ofertas{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    border: none;
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    height: 40px;
+    font-size: 12px;
+}
+
+button:hover{
+    background-color: #084d12;
+    color: #fff;
+}
+
+
+
+
